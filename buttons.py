@@ -1,18 +1,10 @@
+
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 menu = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Tarjima qilmoqchi bolgan matnni kiriting😊")],
-        [KeyboardButton(text="ID ni bilish🆔")]
-      
-      
-    ],
-    resize_keyboard=True,
-    one_time_keyboard=True,
-)
-orqa = ReplyKeyboardMarkup(
-    keyboard=[
-        [KeyboardButton(text="Orqaga🔙")],
+        [KeyboardButton(text="🇺🇿 Uzb - 🇬🇧 Eng"), KeyboardButton(text="🇬🇧 Eng - 🇺🇿 Uzb")],
+        [KeyboardButton(text="🇺🇿 Uzb - 🇷🇺 Rus"), KeyboardButton(text="🇷🇺 Rus - 🇺🇿 Uzb")],
     ],
     resize_keyboard=True,
     one_time_keyboard=True,
